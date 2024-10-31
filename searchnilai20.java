@@ -23,8 +23,6 @@ public class searchnilai20 {
         int key = sc.nextInt();
 
         int hasil = -1; 
-
-        
         for (int i = 0; i < arrNilai.length; i++) {
             if (key == arrNilai[i]) {
                 hasil = i; 
@@ -32,11 +30,11 @@ public class searchnilai20 {
             }
         }
 
+        
         if (hasil != -1) {
             System.out.println("Nilai " + key + " ditemukan di indeks ke-" + hasil);
         } else {
-            System.out.println("Nilai " + key + " tidak ditemukan dalam array.");
+            System.out.println("Nilai yang dicari tidak ditemukan.");
         }
     }
 }
-
